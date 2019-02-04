@@ -135,6 +135,7 @@ html {
 html,
 body {
   font-family: 'Varela Round', sans-serif;
+  background: #E8E595;
 }
 h1,
 h2,
@@ -163,6 +164,9 @@ p {
 }
 footer {
   font-family: "Verala Round", "sans-serif";
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
 }
 .container {
   display: flex;
@@ -171,6 +175,7 @@ footer {
 .head-container {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 }
 .directory {
   display: flex;
@@ -185,14 +190,29 @@ footer {
 }
 .head-content h1 {
   text-align: center;
+  margin: 10px auto;
+  border: 10px 0;
 }
 .head-content .head-img {
   display: block;
+  border: 10px 0;
+}
+.head-content h2 {
+  text-align: center;
+  margin: 10px auto;
+  border: 5px 0;
+}
+.head-content p {
+  text-align: center;
+  border: 5px 0;
+  margin-bottom: 10px;
 }
 .cards {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
+  margin: 10px auto;
+  padding-left: 10%;
   border: 1px solid red;
 }
 .cards .card {
