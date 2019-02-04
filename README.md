@@ -1,6 +1,8 @@
 # UI-Developer-2
 ## Jor Ming Poon
 
+### Live site: https://inspiring-shirley-5342c3.netlify.com/
+
 # MVP
 
 - [ ] All MVP features were built
