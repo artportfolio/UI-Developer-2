@@ -1,3 +1,48 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.directory {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.head-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    h1 {
+        text-align: center;
+    }
+
+    .head-img {
+        display: block;
+    }
+}
+
+
 .cards {
     display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    border: 1px solid red;
+
+    .card {
+        width: 30% ; 
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
+
