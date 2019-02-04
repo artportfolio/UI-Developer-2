@@ -196,6 +196,7 @@ footer {
 .head-content .head-img {
   display: block;
   border: 10px 0;
+  height: 350px;
 }
 .head-content h2 {
   text-align: center;
