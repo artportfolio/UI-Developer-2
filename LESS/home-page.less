@@ -29,7 +29,13 @@
 .directory {
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
+    width: 60%;
+
+    a {
+         font-size: 1.8rem;
+         text-decoration: none;
+         
+    }
 }
 
 .head-content {
@@ -48,6 +54,7 @@
         display: block;
         border: 10px 0;
         height: 350px;
+        border-radius: 50px;
     }
 
     h2 {
@@ -80,11 +87,22 @@
         margin: 10px;
         //border: 1px solid black;
        
-        
+        .card-body {
+            display: none;
+        }
+
+        .list-group {
+            display: none;
+        }
 
         .card-img {
             width: 150px;
+            border-radius: 30px;
         }
     }
+    
+    // .text {
+    //     display: none;
+    // }
 }
 
