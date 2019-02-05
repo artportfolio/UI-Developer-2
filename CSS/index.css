@@ -135,7 +135,7 @@ html {
 html,
 body {
   font-family: 'Varela Round', sans-serif;
-  background: #E8E595;
+  background: #527C85;
 }
 h1,
 h2,
@@ -190,7 +190,7 @@ footer .logo {
   }
 }
 .head-container .logo {
-  width: 50px;
+  width: 100px;
   height: 50px;
 }
 @media (max-width:500px) {
@@ -237,6 +237,7 @@ footer .logo {
 .directory a {
   font-size: 1.8rem;
   text-decoration: none;
+  color: #BDBA79;
 }
 .head-content {
   display: flex;
@@ -246,7 +247,7 @@ footer .logo {
 }
 .head-content h1 {
   text-align: center;
-  margin: 10px auto;
+  margin: 15px auto;
   border: 10px 0;
 }
 .head-content .head-img {
@@ -263,13 +264,13 @@ footer .logo {
 }
 .head-content h2 {
   text-align: center;
-  margin: 10px auto;
+  margin: 15px auto;
   border: 5px 0;
 }
 .head-content p {
   text-align: center;
   border: 5px 0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 @media (max-width:500px) {
   .head-content p {
@@ -283,7 +284,7 @@ footer .logo {
   margin: 10px auto;
   border: 1px solid #BDBA79;
   border-radius: 40px;
-  background: #40627C;
+  background: #E8E595;
 }
 @media (max-width:500px) {
   .cards {
@@ -322,7 +323,7 @@ footer .logo {
   }
 }
 footer .logoOne {
-  width: 50px;
+  width: 75px;
   height: 50px;
 }
 @media (max-width:500px) {
@@ -331,7 +332,7 @@ footer .logoOne {
   }
 }
 footer .logoTwo {
-  width: 50px;
+  width: 75px;
   height: 50px;
 }
 @media (max-width:500px) {
