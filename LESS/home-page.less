@@ -11,19 +11,36 @@
     justify-content: space-between;
     margin-top: 10px;
 
+    @media @mobile {
+        display: block;
+    }
+
     .logo {
      width: 50px;
      height: 50px;
+
+      @media @mobile {
+          display: none;
+      }
+    }
+
+    .btn {
+        @media @mobile {
+            padding: 0 50px;
+        }
     }
 
     .navBtn {
-        .custom-btn(75px, 30px, #679EC7, black)
+        .custom-btn(75px, 30px, #679EC7, black);
     // background: #679EC7;
     // color: black;
     // border-radius: 50px;
     // font-size: 1rem;
     // height: 30px;
     // width: 75px;
+        @media @mobile {
+            width: 100%;
+        }
      }
 }
 
@@ -31,6 +48,10 @@
     display: flex;
     justify-content: space-evenly;
     width: 60%;
+
+    @media @mobile {
+        width: 100%;
+    }
 
     a {
          font-size: 1.8rem;
@@ -73,6 +94,10 @@
         text-align: center;
         border: 5px 0;
         margin-bottom: 10px;
+
+        @media @mobile {
+            padding: 10px;
+        }
     }
 }
 
@@ -83,7 +108,12 @@
     justify-content: space-evenly;
     margin: 10px auto;
     border: 1px solid #BDBA79;
+    border-radius: 40px;
     background: #40627C;
+
+    @media @mobile {
+        margin: 10px;
+    }
 
     .card {
         width: 30% ; 
@@ -123,6 +153,29 @@
     // .text {
     //     display: none;
     // }
+}
+
+footer {
+
+    @media @mobile {
+        display: block;
+    }
+     .logoOne {
+        width: 50px;
+        height: 50px;
+        @media @mobile {
+            display: none;
+        }
+    }
+    .logoTwo {
+        width: 50px;
+        height: 50px;
+
+        @media @mobile {
+            margin-left: 44%;
+            margin-top: 20px;
+        }
+    }
 }
 
 
