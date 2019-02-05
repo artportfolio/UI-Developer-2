@@ -307,6 +307,10 @@ footer .logo {
 .cards .card .card-body {
   display: none;
 }
+.cards .card .card-description {
+  display: block;
+  margin: 15px 0;
+}
 .cards .card .card-img {
   width: 150px;
   border-radius: 30px;
@@ -353,4 +357,7 @@ footer .logoTwo {
 .about-card .about-card-body {
   margin: 10px;
   padding: 0px 20px 20px;
+}
+.about-card .about-card-title {
+  line-height: 1.4;
 }
