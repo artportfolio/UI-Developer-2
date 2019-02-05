@@ -186,12 +186,20 @@ footer .logo {
   height: 50px;
 }
 .head-container .navBtn {
-  background: #679EC7;
-  color: black;
-  border-radius: 50px;
-  font-size: 1rem;
-  height: 30px;
   width: 75px;
+  height: 30px;
+  background-color: #679EC7;
+  color: black;
+  cursor: pointer;
+  margin: 15px 0;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  text-align: center;
+}
+.head-container .navBtn:hover {
+  background-color: #808080;
+  color: #679EC7;
 }
 .directory {
   display: flex;
@@ -219,6 +227,12 @@ footer .logo {
   height: 350px;
   border-radius: 50px;
 }
+@media (max-width:500px) {
+  .head-content .head-img {
+    padding: 10px;
+    height: 250px;
+  }
+}
 .head-content h2 {
   text-align: center;
   margin: 10px auto;
@@ -235,6 +249,7 @@ footer .logo {
   justify-content: space-evenly;
   margin: 10px auto;
   border: 1px solid #BDBA79;
+  background: #40627C;
 }
 .cards .card {
   width: 30% ;
@@ -244,10 +259,21 @@ footer .logo {
   align-items: center;
   margin: 10px;
 }
+@media (max-width:500px) {
+  .cards .card {
+    width: 80%;
+  }
+}
 .cards .card .card-body {
   display: none;
 }
 .cards .card .card-img {
   width: 150px;
   border-radius: 30px;
+}
+@media (max-width:500px) {
+  .cards .card .card-img {
+    width: 80%;
+    border-radius: 30px;
+  }
 }

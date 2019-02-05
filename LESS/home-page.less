@@ -17,13 +17,14 @@
     }
 
     .navBtn {
-    background: #679EC7;
-    color: black;
-    border-radius: 50px;
-    font-size: 1rem;
-    height: 30px;
-    width: 75px;
-    }
+        .custom-btn(75px, 30px, #679EC7, black)
+    // background: #679EC7;
+    // color: black;
+    // border-radius: 50px;
+    // font-size: 1rem;
+    // height: 30px;
+    // width: 75px;
+     }
 }
 
 .directory {
@@ -55,6 +56,11 @@
         border: 10px 0;
         height: 350px;
         border-radius: 50px;
+
+        @media @mobile {
+            padding: 10px;
+            height: 250px;
+        }
     }
 
     h2 {
@@ -77,6 +83,7 @@
     justify-content: space-evenly;
     margin: 10px auto;
     border: 1px solid #BDBA79;
+    background: #40627C;
 
     .card {
         width: 30% ; 
@@ -86,6 +93,10 @@
         align-items: center;
         margin: 10px;
         //border: 1px solid black;
+
+        @media @mobile {
+            width: 80%;
+        }
        
         .card-body {
             display: none;
@@ -100,6 +111,12 @@
         .card-img {
             width: 150px;
             border-radius: 30px;
+
+            @media @mobile {
+                width: 80%;
+                //height: 450px;
+                border-radius: 30px;
+            }
         }
     }
     
