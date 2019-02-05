@@ -247,9 +247,6 @@ footer .logo {
 .cards .card .card-body {
   display: none;
 }
-.cards .card .list-group {
-  display: none;
-}
 .cards .card .card-img {
   width: 150px;
   border-radius: 30px;

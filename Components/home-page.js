@@ -19,6 +19,11 @@ class CardContent {
     describe() {
        //this.card.classList.toggle("group list");
        console.log("DISPLAY PLEASE")
+       const text = document.querySelector(".card-body");
+
+       text.style.display = "block"
+    //    this.card.classList.add("card-body-content");
+    //    console.log("is this working?")
     }
 }
 
