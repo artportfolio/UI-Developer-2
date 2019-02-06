@@ -191,7 +191,7 @@ footer .logo {
 }
 .head-container .logo {
   width: 100px;
-  height: 50px;
+  height: auto;
 }
 @media (max-width:500px) {
   .head-container .logo {
@@ -228,6 +228,7 @@ footer .logo {
   display: flex;
   justify-content: space-evenly;
   width: 60%;
+  padding: 20px;
 }
 @media (max-width:500px) {
   .directory {
