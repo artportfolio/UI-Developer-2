@@ -191,7 +191,7 @@ footer .logo {
 }
 .head-container .logo {
   width: 100px;
-  height: 50px;
+  height: auto;
 }
 @media (max-width:500px) {
   .head-container .logo {
@@ -228,6 +228,7 @@ footer .logo {
   display: flex;
   justify-content: space-evenly;
   width: 60%;
+  padding: 20px;
 }
 @media (max-width:500px) {
   .directory {
@@ -268,9 +269,10 @@ footer .logo {
   border: 5px 0;
 }
 .head-content p {
-  text-align: center;
+  text-align: left;
   border: 5px 0;
   margin-bottom: 15px;
+  padding: 0 100px;
 }
 @media (max-width:500px) {
   .head-content p {
@@ -307,9 +309,14 @@ footer .logo {
 .cards .card .card-body {
   display: none;
 }
+.cards .card .card-description {
+  display: block;
+  margin: 15px 0;
+}
 .cards .card .card-img {
   width: 150px;
   border-radius: 30px;
+  cursor: pointer;
 }
 @media (max-width:500px) {
   .cards .card .card-img {
@@ -353,4 +360,7 @@ footer .logoTwo {
 .about-card .about-card-body {
   margin: 10px;
   padding: 0px 20px 20px;
+}
+.about-card .about-card-title {
+  line-height: 1.4;
 }
