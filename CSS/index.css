@@ -161,7 +161,7 @@ p {
   line-height: 1.4;
 }
 .container {
-  min-width: 500px;
+  min-width: 300px;
   width: 100%;
   margin: 0 auto;
 }
@@ -178,6 +178,7 @@ footer .logo {
 .container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .head-container {
   display: block;
@@ -258,8 +259,8 @@ footer .logo {
 .head-content .head-img {
   display: block;
   border: 10px 0;
-  height: 350px;
-  border-radius: 50px;
+  height: auto;
+  border-radius: 8px;
   margin: 15px;
 }
 @media (min-width:800px) {
@@ -294,7 +295,7 @@ footer .logo {
   background: #E8E595;
   border: 1px solid #BDBA79;
   margin-top: 1px solid black;
-  border-radius: 40px;
+  border-radius: 8px;
 }
 @media (min-width:800px) {
   .cards {
@@ -304,7 +305,7 @@ footer .logo {
     margin: auto 15px;
     padding: 10px;
     border: 1px solid #BDBA79;
-    border-radius: 40px;
+    border-radius: 8px;
   }
 }
 .cards .card {
@@ -329,7 +330,7 @@ footer .logo {
 }
 .cards .card .card-img {
   width: 80%;
-  border-radius: 30px;
+  border-radius: 8px;
   cursor: pointer;
 }
 @media (min-width:800px) {
