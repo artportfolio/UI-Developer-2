@@ -265,7 +265,9 @@ footer .logo {
 @media (min-width:800px) {
   .head-content .head-img {
     padding: 10px;
-    height: 250px;
+    height: 400px;
+    width: 80%;
+    align-self: center;
   }
 }
 .head-content h2 {
@@ -332,7 +334,8 @@ footer .logo {
 }
 @media (min-width:800px) {
   .cards .card .card-img {
-    width: 150px;
+    width: 70%;
+    align-self: center;
   }
 }
 footer {
@@ -349,7 +352,7 @@ footer .logoOne {
 @media (min-width:800px) {
   footer .logoOne {
     width: 75px;
-    height: 50px;
+    height: auto;
     display: block;
   }
 }
@@ -363,7 +366,7 @@ footer .logoTwo {
   footer .logoTwo {
     margin: auto;
     width: 75px;
-    height: 50px;
+    height: auto;
   }
 }
 .about-card {
