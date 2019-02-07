@@ -346,6 +346,29 @@ footer .logo {
     align-self: center;
   }
 }
+.b-btn {
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b-btn .bottom-btn {
+  width: 75px;
+  height: 30px;
+  background-color: #679EC7;
+  color: #dbd490;
+  cursor: pointer;
+  margin: 15px 0;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  text-align: center;
+  width: 50%;
+}
+.b-btn .bottom-btn:hover {
+  background-color: #ffffff;
+  color: #679EC7;
+}
 footer {
   display: block;
 }
