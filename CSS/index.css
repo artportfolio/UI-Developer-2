@@ -346,13 +346,14 @@ footer .logo {
     align-self: center;
   }
 }
-.b-btn {
+.btna {
   padding: 0 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
-.b-btn .bottom-btn {
+.btna .bottom-btn {
   width: 75px;
   height: 30px;
   background-color: #679EC7;
@@ -365,7 +366,7 @@ footer .logo {
   text-align: center;
   width: 50%;
 }
-.b-btn .bottom-btn:hover {
+.btna .bottom-btn:hover {
   background-color: #ffffff;
   color: #679EC7;
 }
