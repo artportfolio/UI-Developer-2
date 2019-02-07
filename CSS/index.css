@@ -182,15 +182,18 @@ footer .logo {
 }
 .head-container {
   display: block;
-  margin-top: 20px;
+  margin-top: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-radius: 5px;
+  background: #263B4A;
 }
 @media (min-width:800px) {
   .head-container {
+    margin-top: 0;
     display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
+    justify-content: space-evenly;
   }
 }
 .head-container .logo {
@@ -198,6 +201,7 @@ footer .logo {
 }
 @media (min-width:800px) {
   .head-container .logo {
+    padding-top: 10px;
     width: 100px;
     height: auto;
     display: block;
@@ -215,7 +219,7 @@ footer .logo {
   width: 75px;
   height: 30px;
   background-color: #679EC7;
-  color: black;
+  color: #dbd490;
   cursor: pointer;
   margin: 15px 0;
   border-radius: 5px;
@@ -225,7 +229,7 @@ footer .logo {
   width: 100%;
 }
 .head-container .navBtn:hover {
-  background-color: #808080;
+  background-color: #ffffff;
   color: #679EC7;
 }
 .directory {
@@ -339,6 +343,30 @@ footer .logo {
     width: 70%;
     align-self: center;
   }
+}
+.btna {
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.btna .bottom-btn {
+  width: 75px;
+  height: 30px;
+  background-color: #679EC7;
+  color: #dbd490;
+  cursor: pointer;
+  margin: 15px 0;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  text-align: center;
+  width: 50%;
+}
+.btna .bottom-btn:hover {
+  background-color: #ffffff;
+  color: #679EC7;
 }
 footer {
   display: block;

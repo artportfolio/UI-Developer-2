@@ -54,3 +54,7 @@ const blank = () => {
 let box = document.querySelector(".cards")
 
 box.addEventListener("mouseout", () => blank())
+
+
+
+
